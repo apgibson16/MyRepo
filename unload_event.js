@@ -1,3 +1,4 @@
+<script>
 var dataLayer = [];
  window.addEventListener('unload', function(event) {
 		dataLayer.push({
@@ -9,3 +10,4 @@ var dataLayer = [];
 		console.log('Window unload event');
 		console.log(dataLayer[0]);
 });
+</script>
